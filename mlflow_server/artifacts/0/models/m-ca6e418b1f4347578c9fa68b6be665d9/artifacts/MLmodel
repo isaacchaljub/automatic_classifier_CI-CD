@@ -1,0 +1,22 @@
+artifact_path: /home/Isaac/Documents/Isaac/MLFlow_trial/mlflow_server/artifacts/0/models/m-ca6e418b1f4347578c9fa68b6be665d9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 3.3.2
+model_id: m-ca6e418b1f4347578c9fa68b6be665d9
+model_size_bytes: 17336037
+model_uuid: m-ca6e418b1f4347578c9fa68b6be665d9
+prompts: null
+run_id: de025fa29d12456380532cc088d797b0
+utc_time_created: '2025-09-17 21:21:48.956141'
